@@ -105,9 +105,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   textStyle: const TextStyle(fontSize: 20.0),
                 ),
                 onPressed: () async {
-                  final prefs = await SharedPreferences.getInstance();
-                  await prefs.setBool('saveUser', isChecked);
-                  if (localAuth(login, password)) {
+                  if (localAuth(password: password, login: login)) {
+                    final prefs = await SharedPreferences.getInstance();
+                    await prefs.setBool('saveUser', isChecked);
                     Navigator.pushNamed(
                       context,
                       '/congrats',

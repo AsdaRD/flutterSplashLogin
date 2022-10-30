@@ -14,7 +14,7 @@ A pretty simple implementation of local authorization and remembering user data.
   
 - Congrats screen – the third screen that is shown after successful authorization on login screen or after splash screen if the user has already been authorized with 'remember me' checkbox.
 
-  <img src="https://github.com/AsdaRD/flutterSplashLogin/blob/master/images/splash_screenshot.png" width="200"/>
+  <img src="https://github.com/AsdaRD/flutterSplashLogin/blob/master/images/congrats_screenshot.png" width="200"/>
   
 
 ### Packages
